@@ -1,0 +1,23 @@
+{
+  "name": "dev-interview",
+  "version": "1.0.0",
+  "description": "Basic setup to start a developer interview task from",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackitai/dev-interview.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackitai/dev-interview/issues"
+  },
+  "homepage": "https://github.com/stackitai/dev-interview#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.4"
+  }
+}
