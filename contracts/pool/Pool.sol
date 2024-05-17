@@ -3,9 +3,12 @@ pragma solidity ^0.8.10;
 
 import {DataTypes} from '../../protocol/libraries/data/DataTypes.sol';
 import {IPool} from '../flashloan/interfaces/IPool.sol';
+import {VersionedInitializable} from '../pool/VersionedInitializable.sol';
+import {PoolStorage} from './PoolStorage.sol';
+import {ReserveLogic} from './ReserveLogic.sol';
 
-/**
- * @title Pool contract
+
+/*** @title Pool contract
  * @author Aave
  * @notice Main point of interaction with an Aave protocol's market
  * - Users can:
@@ -19,8 +22,7 @@ import {IPool} from '../flashloan/interfaces/IPool.sol';
  *   # Execute Flash Loans
  * @dev To be covered by a proxy contract, owned by the PoolAddressesProvider of the specific market
  * @dev All admin functions are callable by the PoolConfigurator contract defined also in the
- *   PoolAddressesProvider
- */
+ *   PoolAddressesProvider */
 contract Pool is VersionedInitializable, PoolStorage, IPool {
   using ReserveLogic for DataTypes.ReserveData;
 

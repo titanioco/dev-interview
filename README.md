@@ -18,7 +18,9 @@ Instructions
 
 https://docs.aave.com/developers/guides/flash-loans
 https://github.com/titanioco/aave-v3-core/tree/master/contracts
-
+https://www.npmjs.com/package/@openzeppelin/contracts
+https://hardhat.org/hardhat-runner/docs/guides/deploying
+https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses
 https://www.youtube.com/watch?v=vgOnZkjifAs&list=PLVP9aGDn-X0QRGpzjx3av5lDH6msuAeyU&index=10
 
 

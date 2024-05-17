@@ -4,7 +4,8 @@ pragma solidity ^0.8.10;
 import {Pool} from '../../pool/Pool.sol';
 import {IPoolAddressesProvider} from '../interfaces/IPoolAddressesProvider.sol';
 import {CalldataLogic} from '../../../protocol/libraries/logic/CalldataLogic.sol';
-
+import {IPool} from '../interfaces/IPool.sol';
+ 
 /**
  * @title L2Pool
  * @author Aave

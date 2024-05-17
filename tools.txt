@@ -10,3 +10,6 @@ npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox @types/node @typ
 npm install --save-dev @nomicfoundation/hardhat-ethers ethers
 npm install --save-dev @nomiclabs/hardhat-ethers ethers
 npm install @openzeppelin/contracts@^4.6.0 -D (waffle library)
+npm install @openzeppelin/contracts
+npm install @ethereum-waffle/mock-contract @aave/core-v3 @openzeppelin/contracts ethers chai hardhat
+npm install --save-dev typescript ts-node
