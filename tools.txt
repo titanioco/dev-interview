@@ -1,0 +1,11 @@
+installed 
+npm install --save-dev ethereum-waffle
+npm install --save-dev @nomicfoundation/hardhat-network-helpers
+npm install --save-dev @nomicfoundation/hardhat-chai-matchers
+npm i --save-dev @types/node
+npm install --save-dev hardhat typescript ts-node @types/node
+npm install --save-dev typechain @typechain/hardhat @typechain/ethers-v5 ethers @types/node
+npm install --save-dev typechain @typechain/hardhat @typechain/ethers-v6 ethers @types/node
+npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox @types/node @types/mocha @types/chai ethers typescript
+npm install --save-dev @nomicfoundation/hardhat-ethers ethers
+npm install --save-dev @nomiclabs/hardhat-ethers ethers

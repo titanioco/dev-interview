@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.24;
 
-/// @custom:dev-run-script deploy.js
+/// @custom:dev-run-script deploy.ts
 
 interface ILendingPool {
     function flashLoan(
