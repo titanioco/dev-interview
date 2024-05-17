@@ -5,7 +5,7 @@ pragma solidity ^0.8.24;
 // import "hardhat/console.sol";
 
 contract Lock {
-    uint public unlockTime;
+    uint256 public unlockTime;
     address payable public owner;
 
     event Withdrawal(uint amount, uint when);
@@ -32,3 +32,4 @@ contract Lock {
         owner.transfer(address(this).balance);
     }
 }
+
