@@ -4,7 +4,8 @@
   "description": "Basic setup to start a developer interview task from",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "hardhat compile",
+    "test": "hardhat test"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,17 @@
   "homepage": "https://github.com/stackitai/dev-interview#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.4"
-  }
+    "@types/node": "^20.12.12",
+    "hardhat": "^2.22.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "@ethereum-waffle/mock-contract": "^4.0.4",
+    "@openzeppelin/contracts": "^5.0.2",
+    "chai": "^5.1.1",
+    "ethers": "^6.12.1"
+  },
+  "type": "module"
 }
