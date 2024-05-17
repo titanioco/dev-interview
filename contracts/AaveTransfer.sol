@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
-/// @custom:dev-run-script deploy.js
 
 pragma solidity ^0.8.24;
+
+/// @custom:dev-run-script deploy.js
 
 interface ILendingPool {
     function flashLoan(
